@@ -10758,6 +10758,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 body {
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   min-height: 100% !important;
